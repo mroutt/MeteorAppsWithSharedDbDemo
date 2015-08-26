@@ -1,0 +1,15 @@
+<head>
+  <title>app2</title>
+</head>
+
+<body>
+  {{> buttonClickList}}
+</body>
+
+<template name="buttonClickList">
+  	<ul>
+		{{#each buttonClick}}
+			<li>{{description}}</li>
+		{{/each}}
+	</ul>
+</template>
